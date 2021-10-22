@@ -127,3 +127,37 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore editor files
+.idea/
+.vscode/
+.DS_Store
+*-workspace
+.ipynb_checkpoints/
+dask-worker-space/
+tmp/
+
+# Ignore compiled files
+__pycache__/
+*egg-info/
+build/
+dist/
+
+# Ignore data products
+*.tif
+*.pkl
+*.xml
+*.out
+*.npy
+*.npz
+*data/
+
+# Ignore debugging and testing logs
+data/
+output/
+results/
+Results/
+Logs/
+*logs
+
+# EOF

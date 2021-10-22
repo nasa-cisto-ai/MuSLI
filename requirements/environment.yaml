@@ -1,0 +1,20 @@
+# Conda environment
+name: musli
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - gdal
+  - libgdal
+  - pip
+  - pip:
+    - numpy
+    - tqdm
+    - rasterio
+    - rioxarray
+    - matplotlib
+    - pandas
+    - scipy
