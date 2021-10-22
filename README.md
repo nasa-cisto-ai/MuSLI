@@ -2,6 +2,10 @@
 
 Vegetation Indices (VIs) Calculation Using Harmonized Landsat and Sentinel-2 (HLS) Imagery
 
+<p align="center">
+<img align="center" src="docs/musli.png" width="300" height="300">
+</p>
+
 ## Business Case
 
 Using the Harmonized Landsat and Sentinel-2 (HLS) surface reflectance dataset<sup> [1]</sup>,
@@ -25,8 +29,11 @@ via the HLS dataset, feel free to visit <https://lpdaac.usgs.gov/data/get-starte
 
 ## Download
 
+- Specific Version: Under releases, hit download to the specific version you wish to download.
+- Latest Version:
+
 ```bash
-wget 2021.10
+wget https://raw.githubusercontent.com/nasa-cisto-ai/MuSLI/main/notebooks/LANDSAT-SENTINEL-HLS-VIS-GPU.ipynb
 ```
 
 ## Usage and installation requirements

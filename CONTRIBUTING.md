@@ -160,7 +160,7 @@ Approver Name, Email
 ## Tag Release
 
 ```bash
-git add .; git commit "Production release v2021.10"; git push
+git add .; git commit -m "Production release v2021.10"; git push
 git tag -a v2021.10 -m "Production release v2021.10"
 git push origin --tags
 ```
